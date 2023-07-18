@@ -31,7 +31,7 @@ function BarnnerCard({ artisteDetails }) {
               {artisteName}
             </h1>
             <h3 className="font-MabryProMedium text-deezer-font-white text-4xl shadow-deezer-orange text-stroke">
-              {NumberFormatter(artisteDetails.nb_fan)}
+              {NumberFormatter(artisteDetails.nb_fan)} Fans
             </h3>
           </div>
         </div>

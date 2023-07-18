@@ -52,11 +52,11 @@ function ArtisteseCard({ fetchedArtistes }) {
                 <span>{artistesName.slice(0, 18)}...</span>
               )}
             </p>
-            <p className="text-base text-deezer-font-white font-MabryProMedium">
-              {NumberFormatter(fans)}
+            <p className="text-lg text-deezer-font-white font-MabryProMedium">
+              {NumberFormatter(fans)} Fans
             </p>
             {width > 1060 && (
-              <p className="text-base text-deezer-font-white font-MabryProMedium">
+              <p className="text-base text-deezer-font-white font-MabryProBold">
                 {NumberFormatter(album)} Albums
               </p>
             )}
@@ -96,11 +96,11 @@ function ArtisteseCard({ fetchedArtistes }) {
                 <span>{artistesName.slice(0, 18)}...</span>
               )}
             </p>
-            <p className="text-base text-deezer-font-white font-MabryProMedium">
+            <p className="text-lg text-deezer-font-white font-MabryProMedium">
               {NumberFormatter(fans)} Fans
             </p>
             {width > 1060 && (
-              <p className="text-base text-deezer-font-white font-MabryProMedium">
+              <p className="text-base text-deezer-font-white font-MabryProBold">
                 {NumberFormatter(album)} Albums
               </p>
             )}
