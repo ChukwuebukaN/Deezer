@@ -16,7 +16,7 @@ function LandingPage() {
   useEffect(() => {
     const ac = new AbortController();
 
-    document.title = "Deezer • Home";
+    document.title = "Deezer • Search";
 
     return function cleanup() {
       ac.abort();
