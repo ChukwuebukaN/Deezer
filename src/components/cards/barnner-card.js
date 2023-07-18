@@ -1,16 +1,11 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/destructuring-assignment */
-import React, { useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
-import { NonAuthRoutes } from "../../utils/urls";
+import React from "react";
+import { useParams } from "react-router-dom";
 import { useWindowResize } from "../../helpers/useWindowResize";
-import Bruno from "../../assets/img/landing-page/bruno-mars-image.png";
 
 function BarnnerCard({ artisteDetails }) {
   const params = useParams();
   const { artisteName } = params;
   const { width } = useWindowResize();
-  const navigate = useNavigate();
 
   // Number Formatter
   function NumberFormatter(num) {
