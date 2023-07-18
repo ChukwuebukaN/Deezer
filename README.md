@@ -19,9 +19,11 @@ A documentation for the frontend development of Deezer.
 
 <h2>Starting CORS Anywhere Proxy</h2>
 
-- [x] To start cors-anywhere proxy simply click on this link: `https://cors-anywhere.herokuapp.com/corsdemo`.
+- [x] To start cors-anywhere proxy simply click on this link: <a href="https://cors-anywhere.herokuapp.com/corsdemo">https://cors-anywhere.herokuapp.com/corsdemo</a>.
 - [x] Then click the button that says `Request tempoary access to demo server`.
 - [x] After access is granted it shows the `You currently have temporary access to the demo server.` see example image below.
+<img width="924" alt="Screenshot 2023-07-18 at 8 49 23 AM" src="https://github.com/ChukwuebukaN/Deezer/assets/64613243/1df725ae-26c8-42e3-b7a9-0ba1bab8c3d5">
+
 
 <h3>Dependencies</h3>
 
