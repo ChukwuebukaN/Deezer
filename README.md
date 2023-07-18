@@ -15,11 +15,18 @@
 
 <h1>Documentation</h1>
 
-A documentation for the frontend development of Citrone LXP.
+A documentation for the frontend development of Deezer.
+
+<h2>Starting CORS Anywhere Proxy</h2>
+
+- [x] To start cors-anywhere proxy simply click on this link: `https://cors-anywhere.herokuapp.com/corsdemo`.
+- [x] Then click the button that says `Request tempoary access to demo server`.
+- [x] After access is granted it shows the `You currently have temporary access to the demo server.` see example image below.
 
 <h3>Dependencies</h3>
 
 <ul>
+  <li>React</li>
   <li>Axios</li>
   <li>Redux</li>
   <li>Tailwind CSS</li>
