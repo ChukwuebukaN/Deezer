@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/deezer-music/static/css/main.85e4e1a4.css",
+    "main.js": "/deezer-music/static/js/main.e1c6273f.js",
+    "static/js/753.a918ef23.chunk.js": "/deezer-music/static/js/753.a918ef23.chunk.js",
+    "static/js/787.4d047c83.chunk.js": "/deezer-music/static/js/787.4d047c83.chunk.js",
+    "static/media/deezer-logo.png": "/deezer-music/static/media/deezer-logo.e41e4adee7b310f07f94.png",
+    "static/media/MabryPro-Bold.ttf": "/deezer-music/static/media/MabryPro-Bold.e5c08e7a334a40d76482.ttf",
+    "static/media/MabryPro-Regular.ttf": "/deezer-music/static/media/MabryPro-Regular.b867029db9eb660840ba.ttf",
+    "static/media/MabryPro-Medium.ttf": "/deezer-music/static/media/MabryPro-Medium.3b5723719cd3af9b642c.ttf",
+    "static/media/MabryPro-Light.ttf": "/deezer-music/static/media/MabryPro-Light.b9125760599cb789da3e.ttf",
+    "static/media/MabryPro-Black.ttf": "/deezer-music/static/media/MabryPro-Black.45c62779ce4e5f46f514.ttf",
+    "service-worker.js": "/deezer-music/service-worker.js",
+    "static/media/deezer-icon.png": "/deezer-music/static/media/deezer-icon.8f72edf9f471d1358ef7.png",
+    "index.html": "/deezer-music/index.html",
+    "static/media/search-icon.svg": "/deezer-music/static/media/search-icon.02b7bf1bd7f57c575be2c82ee1c0abec.svg",
+    "static/media/play-icon.svg": "/deezer-music/static/media/play-icon.56537803f480e79e7dbf7207a08fd1aa.svg",
+    "main.85e4e1a4.css.map": "/deezer-music/static/css/main.85e4e1a4.css.map",
+    "main.e1c6273f.js.map": "/deezer-music/static/js/main.e1c6273f.js.map",
+    "753.a918ef23.chunk.js.map": "/deezer-music/static/js/753.a918ef23.chunk.js.map",
+    "787.4d047c83.chunk.js.map": "/deezer-music/static/js/787.4d047c83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85e4e1a4.css",
+    "static/js/main.e1c6273f.js"
+  ]
+}
