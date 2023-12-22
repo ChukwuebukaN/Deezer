@@ -38,7 +38,7 @@ function Header() {
         <div className="w-full">
           <Inputs
             label="search"
-            type="text"
+            type="search"
             icon={
               <SearchIcon className="absolute mt-[10px] ml-[15px] w-[20px] h-[20px]" />
             }

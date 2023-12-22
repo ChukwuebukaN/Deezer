@@ -37,7 +37,9 @@ function LandingPage() {
       <Header />
       <section className=" px-[16px] md:px-[60px] lg:px-[60px]">
         <p className="text-3xl md:text-4xl lg:text-5xl my-6 text-center font-MabryProBold">
-          {isSearchedTerm ? `Searching ${isSearchedTerm} ` : "Search Artiste's"}
+          {isSearchedTerm
+            ? `Searching ${isSearchedTerm} `
+            : "Search Artiste's "}
           on Deezer
         </p>
 
