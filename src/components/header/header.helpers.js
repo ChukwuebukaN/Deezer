@@ -1,6 +1,6 @@
 import services from "./services";
 
-/** Handles Search Artiste's */
+/** Handles Search Artistes */
 export const handleOnChangeSearchArtistes = async (
   searchTerm,
   dispatch,

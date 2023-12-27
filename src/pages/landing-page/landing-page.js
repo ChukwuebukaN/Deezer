@@ -1,14 +1,17 @@
 import React, { useEffect } from "react";
-import { useSelector } from "react-redux";
-import ArtisteCard from "../../components/cards/artistes-card";
+import { useSelector, useDispatch } from "react-redux";
 import {
   searchedArtiste,
   searchedTerm,
   searchIsLoading,
+  setCurrentSearchDetails,
 } from "../../redux/search/searchSlice";
+import ArtisteCard from "../../components/cards/artistes-card";
 import Header from "../../components/header/header";
+import { handleOnChangeSearchArtistes } from "../../components/header/header.helpers";
 
 function LandingPage() {
+  const dispatch = useDispatch();
   const isSearchedArtiste = useSelector(searchedArtiste);
   const isSearchedTerm = useSelector(searchedTerm);
   const isSearchIsLoading = useSelector(searchIsLoading);
@@ -16,7 +19,9 @@ function LandingPage() {
   useEffect(() => {
     const ac = new AbortController();
 
-    document.title = "Deezer • Search";
+    document.title = "Deezer Music • Search";
+
+    handleOnChangeSearchArtistes("Burna", dispatch, setCurrentSearchDetails);
 
     return function cleanup() {
       ac.abort();
@@ -36,11 +41,9 @@ function LandingPage() {
     <div>
       <Header />
       <section className=" px-[16px] md:px-[60px] lg:px-[60px]">
-        <p className="text-3xl md:text-4xl lg:text-5xl my-6 text-center font-MabryProBold">
-          {isSearchedTerm
-            ? `Searching ${isSearchedTerm} `
-            : "Search Artiste's "}
-          on Deezer
+        <p className="text-3xl md:text-4xl lg:text-5xl mt-14 mb-6 text-center font-MabryProBold">
+          {isSearchedTerm ? `Searching ${isSearchedTerm} ` : "Search Artistes "}
+          on Deezer Music
         </p>
 
         {isSearchIsLoading === true ? (
@@ -53,9 +56,20 @@ function LandingPage() {
           <span />
         ) : (
           <div className="pt-60 flex items-center justify-center">
-            <p className="ext-lg md:text-xl lg:text-2xl text-center font-MabryProBold">
-              Type into the Search Box to Search
-            </p>
+            <div className="text-center">
+              <p className="ext-lg md:text-xl lg:text-2xl text-center font-MabryProBold mb-4">
+                Click the below link to allow access to Deezer&apos;s API, then
+                refresh.
+              </p>
+              <a
+                className="text-deezer-orange  font-MabryProMedium"
+                target="_blank"
+                href="https://cors-anywhere.herokuapp.com/https://api.deezer.com/"
+                rel="noreferrer"
+              >
+                https://cors-anywhere.herokuapp.com/https://api.deezer.com/
+              </a>
+            </div>
           </div>
         )}
 

@@ -1,6 +1,6 @@
 import services from "./services";
 
-/** Handles Get Artiste's Top Details */
+/** Handles Get Artistes Top Details */
 export const getArtistesDetails = async (setArtisteDetails, artisteId) => {
   await services
     .GetArtisteDetails(artisteId)
@@ -16,7 +16,7 @@ export const getArtistesDetails = async (setArtisteDetails, artisteId) => {
     });
 };
 
-/** Handles Get Artiste's Top Songs */
+/** Handles Get Artistes Top Songs */
 export const getArtistesTopSongs = async (setArtisteTopSongs, artisteId) => {
   await services
     .GetTopSongs(artisteId)
@@ -32,7 +32,7 @@ export const getArtistesTopSongs = async (setArtisteTopSongs, artisteId) => {
     });
 };
 
-/** Handles Get Artiste's Albums */
+/** Handles Get Artistes Albums */
 export const getArtistesAlbums = async (setArtisteAlbums, artisteId) => {
   await services
     .GetAlbums(artisteId)

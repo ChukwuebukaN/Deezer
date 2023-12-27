@@ -16,7 +16,7 @@ import { handleOnChangeSearchArtistes } from "./header.helpers";
 function Header() {
   const { width } = useWindowResize();
   const isSearchedTerm = useSelector(searchedTerm);
-  const [searchTerm, setSearchTerm] = useState(isSearchedTerm || "");
+  const [searchTerm, setSearchTerm] = useState(isSearchedTerm || "Burna");
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
@@ -38,7 +38,7 @@ function Header() {
         <div className="w-full">
           <Inputs
             label="search"
-            type="search"
+            type="text"
             icon={
               <SearchIcon className="absolute mt-[10px] ml-[15px] w-[20px] h-[20px]" />
             }
