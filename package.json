@@ -1,6 +1,6 @@
 {
-  "name": "deezer",
   "homepage": "http://ChukwuebukaN.github.io/deezer-music",
+  "name": "deezer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
