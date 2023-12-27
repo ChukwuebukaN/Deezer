@@ -15,7 +15,11 @@ const store = configureStore;
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <BrowserRouter history={history} navigator={history}>
+    <BrowserRouter
+      basename={process.env.PUBLIC_URL}
+      history={history}
+      navigator={history}
+    >
       <React.StrictMode>
         <App />
       </React.StrictMode>
